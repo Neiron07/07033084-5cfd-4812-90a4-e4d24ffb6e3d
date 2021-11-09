@@ -18,8 +18,8 @@ python app.py
 
 ## Pages
 + /
-+ create
-+ all
++ /create
++ /all
 
 ![logo](https://i.imgur.com/puLnbTp.png)
 ![logo](https://i.imgur.com/hC0oaYr.png)
