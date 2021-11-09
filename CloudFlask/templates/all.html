@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Турниры</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="static/css/all.css"  type="text/css">
+</head>
+<body>
+    <div class="weather__text">
+        <header id="main-nav">
+          <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-responsive">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-xs" href="/all">
+                    <li>All Files</li>
+                </a>
+                
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-responsive">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/create">Создать файл</li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div> 
+
+    
+
+
+    <div class="files__name" style="text-align: center;">
+    	{% for el1 in art %}
+    		<h1>{{el1.id}} <a href="{{el1.link}}">{{el1.link}}</h1>
+    	{% endfor %}
+    </div>
+</body>
+</html>
