@@ -40,10 +40,13 @@
     
 
 
-    <div class="files__name" style="text-align: center;">
+    <div class="files__name">
     	{% for el1 in art %}
+      <div class="alert alert-warning mt-2">
     		<h1>{{el1.id}} <a href="{{el1.link}}">{{el1.link}}</h1>
-    	{% endfor %}
+    	
+      </div>
+      {% endfor %}
     </div>
 </body>
 </html>
