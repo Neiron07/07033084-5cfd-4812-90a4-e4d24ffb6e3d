@@ -11,9 +11,10 @@ http://hack00.pythonanywhere.com/
 > > uploads
 
 ## Installation
-```$ git clone 
+```$ git clone https://github.com/Neiron07/07033084-5cfd-4812-90a4-e4d24ffb6e3d.git 
    $ cd 07033084-5cfd-4812-90a4-e4d24ffb6e3d
    $ pip install -r requirements.txt
+   
 ```
 
 ## Pages
