@@ -11,10 +11,9 @@ http://hack00.pythonanywhere.com/
 > > uploads
 
 ## Installation
-```
-pip install flask
-#for start 
-python app.py 
+```$ git clone 
+   $ cd 07033084-5cfd-4812-90a4-e4d24ffb6e3d
+   $ pip install -r requirements.txt
 ```
 
 ## Pages
